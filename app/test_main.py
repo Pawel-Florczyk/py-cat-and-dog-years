@@ -18,7 +18,8 @@ class TestGetHumanAge:
                                  (32, 32, [4, 3]),
                                  (32, 34, [4, 4]),
                                  (34, 34, [4, 4]),
-                                 (32, 5, [4, 0])
+                                 (32, 5, [4, 0]),
+                                 (22, 34, [1, 4])
                              ])
     def test_cat_and_dog_age_equal_to_expected_human_age(
             self,
